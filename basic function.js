@@ -5,10 +5,10 @@ function add (){
     let b = 20
     return a + b
 }
-console.log(add(10, 20));
+console.log(add());
 
 for(let i = 0; i < 10; i++){
-    console.log(add(10, 20));
+    console.log(add());
 }
 
 
@@ -18,5 +18,9 @@ function sub (a, b){
     return result
 }
 console.log(sub(100, 30));
+console.log(sub(1000, 30));
 
-console.log(add(10, 20));
+console.log(sub(30, 20));
+
+console.log(sub(200, 100));
+console.log(add());
